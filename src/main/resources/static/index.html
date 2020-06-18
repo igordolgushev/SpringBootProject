@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table by users's</title>
+    <link rel="stylesheet" href="style/my_style.css">
+</head>
+<body>
+    <h1>User's</h1>
+    <table id="usersList"></table>
+
+    <form action="#">    
+        <input id="user_name" placeholder="User name">
+        <input id="user_login" placeholder="User login">
+        <input id="user_email" placeholder="User email" type = "email">
+        <button onclick="createUser()">Create user</button>
+    </form>
+    
+    <input id = "search_field">
+    
+    <button onClick = "searchByLogin()">Serarch user</button>
+    
+    <script src = "script/event.js"></script>
+    
+</body>
+</html>
