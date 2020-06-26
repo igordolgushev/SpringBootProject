@@ -8,6 +8,7 @@ public interface UsersRepository extends JpaRepository<Users, Integer> {
     //saveAll()
     //delete()
     //findById()
+    //findAll
     //встроены в JPARepository
 
     Users findByLogin(String login);
